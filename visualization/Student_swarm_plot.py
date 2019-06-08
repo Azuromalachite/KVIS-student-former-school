@@ -13,7 +13,7 @@ import pandas as pd
 import seaborn as sns
 
 # Load the dataframe
-df = pd.read_csv(r"C:\Users\azuromalachite\Documents\KVIS student\KVIS student dataset.csv")
+df = pd.read_csv("KVIS student dataset.csv")
 
 # Check the column name
 for col in df.columns: 
